@@ -113,6 +113,7 @@ export const RemediationOrderDetail: React.FC<RemediationOrderDetailProps> = ({
     try {
       await completeRemediation.mutateAsync({
         orderID: order.ID,
+        actualCost: actualCost ? parseFloat(actualCost) : undefined,
         notes: completionNotes,
       });
       setCompletionDialogOpen(false);

@@ -116,8 +116,8 @@ export const useCompleteRemediation = () => {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: ({ orderID, notes }: { orderID: string; notes?: string }) =>
-      remediationAPI.complete(orderID, notes),
+    mutationFn: ({ orderID, actualCost, notes }: { orderID: string; actualCost?: number; notes?: string }) =>
+      remediationAPI.complete(orderID, actualCost, notes),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['remediation'] });
     },
