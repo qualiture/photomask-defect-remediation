@@ -1,0 +1,11 @@
+maskID,layer,technology,manufacturer,receivedDate,status_code,lifecycleStage,usageCount,estimatedValue,layoutImageURL
+MASK-M001,Metal 1,7nm,Intel,2025-10-01,InUse,In-Use,45,12000,
+MASK-M002,Poly 1,7nm,Intel,2025-10-05,InUse,In-Use,32,12000,
+MASK-M003,Metal 2,7nm,TSMC,2025-10-10,InUse,In-Use,28,15000,
+MASK-M004,Contact,7nm,Samsung,2025-10-12,New,New,0,10000,
+MASK-M005,Via,5nm,Intel,2025-09-15,Quarantine,Quarantine,120,18000,
+MASK-M006,Metal 3,5nm,TSMC,2025-09-20,InUse,In-Use,85,18000,
+MASK-M007,Active Area,7nm,Samsung,2025-10-08,InUse,In-Use,15,12000,
+MASK-M008,Implant,7nm,Intel,2025-10-02,InUse,In-Use,52,11000,
+MASK-M009,STI,5nm,TSMC,2025-09-25,Retired,Retired,200,18000,
+MASK-M010,Hardmask,7nm,Samsung,2025-09-30,UnderRepair,Under Repair,95,12000,

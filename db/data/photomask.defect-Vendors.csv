@@ -1,0 +1,8 @@
+vendorID,vendorName,specialization,rating,avgTurnaround,contactEmail,phone,s4VendorCode
+VENDOR-001,Precision Mask Repair Inc.,Particle Removal & Cleaning,4.8,2,service@precisionmask.com,+1-408-555-0101,V001
+VENDOR-002,Advanced Coating Solutions,Antireflection Coating,4.6,3,support@advancedcoating.com,+1-408-555-0102,V002
+VENDOR-003,Edge Master Fabrication,Edge Repair & Restoration,4.5,4,info@edgemaster.com,+1-408-555-0103,V003
+VENDOR-004,EUV Mask Services,All-purpose Mask Services,4.9,2,sales@euvmask.com,+1-408-555-0104,V004
+VENDOR-005,Quick Clean Masks,Standard & Deep Cleaning,4.7,1,contact@quickclean.com,+1-408-555-0105,V005
+VENDOR-006,Global Mask Solutions,Full-Service Solutions,4.4,3,info@globalmask.com,+1-408-555-0106,V006
+VENDOR-007,Lithography Support Services,Specialized Repairs,4.3,5,support@lithosupport.com,+1-408-555-0107,V007

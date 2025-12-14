@@ -1,0 +1,11 @@
+defectID,detectedDate,detectionMethod,defectType_code,severity,priority,coordinateX,coordinateY,zone,affectedArea,imageType,imageURL,rootCause,patternGroup,aiConfidence,impactsYield,estimatedImpact,mask_ID,equipment_ID
+DEF-M001-001,2025-10-20T10:30:00Z,Inspection,CONT-PARTICLE,Major,8,15000.500000,22500.750000,Die A1,785.398000,image/jpeg,/images/DEF-M001-001.jpg,Particle from handling,Cluster-1,0.92,true,500,,
+DEF-M001-002,2025-10-21T14:15:00Z,Equipment,PATTERN-BREAK,Major,7,18500.250000,24000.500000,Die B2,500.250000,image/jpeg,/images/DEF-M001-002.jpg,Process variation,Cluster-1,0.88,true,750,,
+DEF-M002-001,2025-10-22T09:45:00Z,Inspection,CONT-RESIST,Minor,5,12000.000000,18000.000000,Die A3,314.159000,image/jpeg,/images/DEF-M002-001.jpg,Resist residue,Isolated,0.75,false,200,,
+DEF-M003-001,2025-10-19T16:20:00Z,Equipment,PHYS-SCRATCH,Critical,10,25500.600000,30000.400000,Die C1,1000.000000,image/jpeg,/images/DEF-M003-001.jpg,Mechanical damage,Critical-Event,0.96,true,2500,,
+DEF-M004-001,2025-10-23T11:00:00Z,Manual,PATTERN-UNDERCUT,Major,7,14000.250000,19500.750000,Die B1,400.000000,image/jpeg,/images/DEF-M004-001.jpg,Etch process issue,Potential-Cluster,0.87,true,600,,
+DEF-M005-001,2025-09-25T13:30:00Z,Equipment,PHYS-PIT,Critical,9,32000.000000,35000.000000,Die E2,2000.000000,image/jpeg,/images/DEF-M005-001.jpg,Substrate defect,Major-Pattern,0.95,true,3000,,
+DEF-M005-002,2025-09-26T10:15:00Z,Equipment,PHYS-CRACK,Critical,10,31500.500000,35500.250000,Die E2,1800.000000,image/jpeg,/images/DEF-M005-002.jpg,Substrate crack propagation,Major-Pattern,0.94,true,2800,,
+DEF-M006-001,2025-10-14T15:45:00Z,Inspection,EDGE-DEFECT,Minor,4,5000.000000,28000.000000,Edge Zone,200.000000,image/jpeg,/images/DEF-M006-001.jpg,Edge handling damage,Edge-Damage,0.68,false,150,,
+DEF-M008-001,2025-10-18T12:30:00Z,Equipment,COATING-DEFECT,Major,8,22000.750000,26000.500000,Die D3,450.000000,image/jpeg,/images/DEF-M008-001.jpg,Coating thickness variation,Coating-Issue,0.91,true,1200,,
+DEF-M010-001,2025-09-29T08:00:00Z,Equipment,CONT-PARTICLE,Critical,9,28500.250000,32500.750000,Die D1,1200.000000,image/jpeg,/images/DEF-M010-001.jpg,Equipment contamination,Equipment-Related,0.93,true,1500,,

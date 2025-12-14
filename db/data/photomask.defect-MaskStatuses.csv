@@ -1,0 +1,6 @@
+code,name,description,criticality
+New,New,Newly received mask,1
+InUse,In Use,Currently in production,3
+Quarantine,Quarantine,Suspended for inspection,4
+UnderRepair,Under Repair,Currently being repaired,4
+Retired,Retired,Out of service,2

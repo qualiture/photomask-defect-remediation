@@ -1,0 +1,11 @@
+code,name,category,repairability,description
+CONT-PARTICLE,Particle Contamination,Contamination,Repairable,Foreign particle on mask surface
+CONT-RESIST,Resist Residue,Contamination,Repairable,Photoresist residue not fully removed
+PATTERN-BRIDGE,Pattern Bridge,Pattern,Non-Repairable,Unwanted connection between pattern lines
+PATTERN-BREAK,Pattern Break,Pattern,Conditional,Broken or fractured pattern element
+PATTERN-UNDERCUT,Pattern Undercut,Pattern,Conditional,Undercut in pattern structure
+PHYS-SCRATCH,Physical Scratch,Physical,Non-Repairable,Scratch on mask surface
+PHYS-PIT,Physical Pit,Physical,Non-Repairable,Pit or depression in mask substrate
+PHYS-CRACK,Crack,Physical,Non-Repairable,Crack in mask substrate or coating
+EDGE-DEFECT,Edge Defect,Physical,Repairable,Defect at mask edge
+COATING-DEFECT,Coating Defect,Physical,Conditional,Antireflection coating defect

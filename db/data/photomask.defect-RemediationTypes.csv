@@ -1,0 +1,9 @@
+code,name,category,estimatedDuration,typicalCost,description
+REPAIR-PARTICLE,Particle Removal,Repair,1,250,Clean particle from mask surface
+REPAIR-RESIST,Resist Cleaning,Repair,2,300,Remove resist residue
+REPAIR-EDGE,Edge Repair,Repair,3,400,Repair damaged mask edge
+REPAIR-COATING,Coating Touch-up,Repair,2,350,Repair antireflection coating
+CLEAN-STANDARD,Standard Cleaning,Cleaning,1,150,Standard cleaning procedure
+CLEAN-DEEP,Deep Cleaning,Cleaning,2,250,Deep cleaning with special procedures
+REPLACE-MASK,Mask Replacement,Replacement,5,8000,Replace entire mask
+SCRAPE-RETIRE,Scrap and Retire,Replacement,1,100,Scrap mask - unsuitable for repair

@@ -1,0 +1,28 @@
+{
+  "build": {
+    "target": "gen"
+  },
+  "requires": {
+    "db": {
+      "kind": "sqlite",
+      "credentials": {
+        "url": "memory"
+      }
+    }
+  },
+  "cds": {
+    "app": {
+      "port": 4004
+    }
+  },
+  "server": {
+    "cors": {
+      "origin": true,
+      "credentials": true,
+      "methods": ["GET", "POST", "PATCH", "DELETE", "OPTIONS", "PUT"],
+      "allowedHeaders": ["Content-Type", "Authorization", "X-Requested-With", "Accept"],
+      "exposedHeaders": ["Content-Length"],
+      "maxAge": 86400
+    }
+  }
+}
